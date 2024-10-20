@@ -1,0 +1,1 @@
+import{e,j as a}from"./index.fb3bb849.js";import{E as s}from"./ExampleOne.54058b3f.js";import{E as r}from"./ExampleTwo.61662079.js";const t=()=>e("div",{className:" space-y-5",children:[a(s,{}),a(r,{})]});export{t as default};

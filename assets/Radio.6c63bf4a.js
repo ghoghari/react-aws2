@@ -1,0 +1,4 @@
+import{j as r,e as g}from"./index.fb3bb849.js";const p=({label:e,id:t,name:l,disabled:a,value:n,onChange:i,activeClass:o="ring-slate-500 dark:ring-slate-400",wrapperClass:d=" ",labelClass:x="text-slate-500 dark:text-slate-400 text-sm leading-6",checked:s,className:f="h-[18px] w-[18px]"})=>r("div",{children:g("label",{className:`flex items-center ${a?" cursor-not-allowed opacity-50":"cursor-pointer "}`+d,id:t,children:[r("input",{type:"radio",className:"hidden",name:l,value:n,checked:s,onChange:i,htmlFor:t,disabled:a}),r("span",{className:` flex-none  bg-white dark:bg-slate-500 rounded-full border inline-flex  ltr:mr-3 rtl:ml-3 relative transition-all duration-150
+          ${f}
+          ${s?o+" ring-[6px]  ring-inset ring-offset-2 dark:ring-offset-slate-600  dark:ring-offset-4 border-slate-700":"border-slate-400 dark:border-slate-600 dark:ring-slate-700"}
+          `}),e&&r("span",{className:x,children:e})]})});export{p as R};
